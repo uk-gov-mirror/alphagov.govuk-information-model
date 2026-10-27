@@ -89,9 +89,17 @@
   </owl:Class>
   <rdf:Description>
     <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    >0</owl:minQualifiedCardinality>
+  </rdf:Description>
+  <rdf:Description>
+    <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
     >1</owl:minQualifiedCardinality>
   </rdf:Description>
   <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#minQualifiedCardinality"/>
+  <rdf:Description>
+    <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    >0</owl:minQualifiedCardinality>
+  </rdf:Description>
   <rdf:Description>
     <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
     >1</owl:minQualifiedCardinality>
@@ -99,6 +107,10 @@
   <rdf:Description>
     <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
     >0</owl:minQualifiedCardinality>
+  </rdf:Description>
+  <rdf:Description>
+    <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    >1</owl:minQualifiedCardinality>
   </rdf:Description>
   <rdf:Description>
     <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
@@ -112,22 +124,10 @@
     <rdfs:comment xml:lang="en-GB">This ontology is used to define the Tax Content Block as defined in the Content Block Manager.</rdfs:comment>
   </rdf:Description>
   <rdf:Description>
-    <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
-    >0</owl:minQualifiedCardinality>
-  </rdf:Description>
-  <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#maxQualifiedCardinality"/>
-  <rdf:Description>
-    <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
-    >0</owl:minQualifiedCardinality>
-  </rdf:Description>
-  <rdf:Description>
     <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
     >165</owl:maxQualifiedCardinality>
   </rdf:Description>
-  <rdf:Description>
-    <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
-    >1</owl:minQualifiedCardinality>
-  </rdf:Description>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#maxQualifiedCardinality"/>
   <rdf:Description>
     <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
     >165</owl:maxQualifiedCardinality>
