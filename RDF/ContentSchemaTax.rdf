@@ -87,14 +87,18 @@
     <dc:creator>Marc Stephenson</dc:creator>
     <rdfs:subClassOf rdf:resource="https://gov.uk/ontology#ContentSchema"/>
   </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#minQualifiedCardinality"/>
   <rdf:Description>
     <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
     >165</owl:maxQualifiedCardinality>
   </rdf:Description>
-  <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#minQualifiedCardinality"/>
   <rdf:Description>
     <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
     >1</owl:minQualifiedCardinality>
+  </rdf:Description>
+  <rdf:Description>
+    <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    >0</owl:minQualifiedCardinality>
   </rdf:Description>
   <rdf:Description>
     <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
@@ -124,10 +128,6 @@
     >0</owl:minQualifiedCardinality>
   </rdf:Description>
   <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#maxQualifiedCardinality"/>
-  <rdf:Description>
-    <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
-    >0</owl:minQualifiedCardinality>
-  </rdf:Description>
   <rdf:Description>
     <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
     >1</owl:minQualifiedCardinality>
